@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.menu {
+
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#FirstP {
+    font-size: 40px;
+    color: white;
+    font-family: monospace;
+}
+
+#SecondP {
+    font-size: 30px;
+    color: white;
+    font-family: monospace;
+}
+
+#ThirdP {
+    font-size: 25px;
+    color: white;
+    font-family: monospace;
+}
+
+#fourthP {
+    font-size: 40px;
+    color: aqua;
+    font-family: monospace
+}
+
+fifthP {
+    font-size: 25px;
+    color: aqua;
+    font-family: monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid #AAAAAA
+}
+
+img:hover {
+    transform: scale(0.9)
+}
+
+#picture {
+    width: 400px;
+}
+
+#6P {
+    font-size: 40px;
+    color: darkviolet;
+}
+
+.links {
+    display: inline;
+    color: fuchsia;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: monospace;
+    font-size: 27px;
+}
+
+h6 {
+    font-size: 40px;
+    color: white;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+h7 {
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+}
